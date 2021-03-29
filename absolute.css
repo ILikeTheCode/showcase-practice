@@ -3,12 +3,15 @@ body {
 }
 
 .parentdiv {
-  position: relative;
-  margin: 0;
-  width: 50vw;
-  height: 60vh;
-  background-color: #1a3337;
-  z-index: -1;
+  height: 60.898vw;
+  /* display: block; */
+  /* position: relative; */
+  /* margin: 0; */
+  /* width: 100%;
+  height: 100%; */
+  /* height: 60.898vw; */
+  /* background-color: #1a3337; */
+  /* z-index: -1; */
 }
 
 /* .childdiv {
