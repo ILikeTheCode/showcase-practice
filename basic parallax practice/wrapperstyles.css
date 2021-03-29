@@ -40,8 +40,8 @@ body {
 .parallax__art {
   height: inherit;
   background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-repeat: repeat-x;
   background-size: cover;
 }
 
@@ -63,8 +63,13 @@ body {
 .parallax--concert2 {
   z-index: 0;
   background-image: url("Parallax\ Images/2.png");
+  position: absolute;
 }
 
 .parallax--concert3 {
   background-image: url("Parallax\ Images/3.png");
+}
+
+body {
+  background-color: grey;
 }
